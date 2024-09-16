@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <TextView
+           style="@style/MaterialAlertDialog.Material3.Title.Text"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Start Your Health Journey Today"
+           android:padding="8dp"
+           android:textColor="@color/black"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/secondary_color3"
+           android:text="Making healthcare accessible and personalized.”"
+
+           />
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/doctor_in_phne"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/bg_rounded_edt"
+           android:hint="Enter Full Name"
+           android:textColorHint="@color/secondary_color3"
+           android:drawableEnd="@drawable/baseline_person_outline_24"
+           android:drawableRight="@drawable/baseline_person_outline_24"
+           android:layout_marginStart="30dp"
+           android:layout_marginEnd="30dp"
+           android:layout_marginTop="10dp"
+           android:padding="12dp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/bg_rounded_edt"
+           android:hint="Location"
+           android:textColorHint="@color/secondary_color3"
+           android:drawableEnd="@drawable/baseline_location_on_24"
+           android:drawableRight="@drawable/baseline_location_on_24"
+           android:layout_marginStart="30dp"
+           android:layout_marginEnd="30dp"
+           android:layout_marginTop="10dp"
+           android:padding="12dp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/bg_rounded_edt"
+           android:hint="Enter Date Of Birth"
+           android:textColorHint="@color/secondary_color3"
+           android:drawableEnd="@drawable/baseline_phone_24"
+           android:drawableRight="@drawable/baseline_phone_24"
+           android:layout_marginStart="30dp"
+           android:layout_marginEnd="30dp"
+           android:layout_marginTop="10dp"
+           android:padding="12dp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/bg_rounded_edt"
+           android:hint="Enter Phone"
+           android:textColorHint="@color/secondary_color3"
+
+           android:drawableEnd="@drawable/baseline_person_outline_24"
+           android:drawableRight="@drawable/baseline_person_outline_24"
+           android:layout_marginStart="30dp"
+           android:layout_marginEnd="30dp"
+           android:layout_marginTop="10dp"
+           android:padding="12dp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/bg_rounded_edt"
+           android:hint="Enter Password"
+           android:textColorHint="@color/secondary_color3"
+           android:drawableEnd="@drawable/baseline_lock_24"
+           android:drawableRight="@drawable/baseline_lock_24"
+           android:layout_marginStart="30dp"
+           android:layout_marginEnd="30dp"
+           android:layout_marginTop="10dp"
+           android:padding="12dp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/bg_rounded_edt"
+           android:hint="Repeat Password"
+           android:textColorHint="@color/secondary_color3"
+           android:drawableEnd="@drawable/baseline_lock_24"
+           android:drawableRight="@drawable/baseline_lock_24"
+           android:layout_marginStart="30dp"
+           android:layout_marginEnd="30dp"
+           android:layout_marginTop="10dp"
+           android:padding="12dp"/>
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/signup_btn_2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="SignUp"
+           android:textSize="20sp"
+           android:layout_marginTop="30dp"
+           android:textColor="@color/white"
+           android:background="@drawable/bg_rounded_btn"
+           android:layout_marginStart="70dp"
+           android:layout_marginEnd="70dp"/>
+
+
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:layout_margin="30dp"
+           android:gravity="center_horizontal"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Already have an account?"
+               android:gravity="center_vertical"
+               android:textColor="@color/secondary_color3"
+               android:layout_gravity="center_vertical"
+               android:textSize="20sp"/>
+
+
+           <TextView
+               style="@style/MaterialAlertDialog.Material3.Title.Text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="LOGIN"
+               android:layout_gravity="center_vertical"
+               android:gravity="center_vertical"
+               android:layout_marginStart="4dp"
+               android:textColor="@color/secondary_color2"
+               android:textStyle="bold"/>
+
+       </androidx.appcompat.widget.LinearLayoutCompat>
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
